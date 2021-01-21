@@ -55,13 +55,15 @@ CREATE TABLE `profilePic` (
 <br/><br/>
 <a href = "./pdo.php"><div>
 <h1>Also Don't forget to upload pdo.php</h1>
+<a href = "./pdo.php">
 
 ```php
 <?php
-	$pdo = new PDO('mysql:host=sql210.epizy.com;port=3306;dbname=epiz_26398620_Portfolio', 'epiz_26398620', '6ToxhKwbAM2m');
+	$pdo = new PDO('mysql:host=*********;port=******;dbname=*******', '*****', '*******');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
 ```
+</a>
 </div></a>
 
 
