@@ -53,7 +53,7 @@ CREATE TABLE `profilePic` (
 
 <hr>
 <br/><br/>
-<a href = './pdo.php'><div>
+<a href = "./pdo.php"><div>
 <h1>Also Don't forget to upload pdo.php</h1>
 
 ```php
