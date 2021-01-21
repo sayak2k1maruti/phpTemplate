@@ -5,7 +5,7 @@
 
 ```sql
 CREATE TABLE `accounts-rj` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE `accounts-rj` (
 
 ```sql
 CREATE TABLE `personalDetails` (
-  `entry_id` int(11) NOT NULL,
+  `entry_id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
   `mobile_number` bigint(100) NOT NULL,
   `city` varchar(225) DEFAULT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE `personalDetails` (
 ```sql
 
 CREATE TABLE `academicDetails` (
-  `entry_id` int(11) NOT NULL,
+  `entry_id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
   `category` varchar(25) DEFAULT NULL,
   `stream` varchar(25) DEFAULT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE `academicDetails` (
 
 ```sql
 CREATE TABLE `profilePic` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
   `image_url` text,
   PRIMARY KEY(`id`)
