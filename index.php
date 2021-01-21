@@ -174,7 +174,7 @@
 <body>
     <div class='dpDiv'>
         <div class='dp'>
-            <img alt = 'avtar' src= <?= $user['dp']==NULL ? './avtar.png' : './uploads/'.$user['dp'] ?>></img>
+            <img alt = 'avtar' src= <?= $user['dp']==NULL ? './avtar.png' : '"./uploads/'.$user['dp'].'"' ?>></img>
         </div>
         <form  method='POST' action = 'index.php'><button class='editButton' type = 'submit' name='edit' value='dp'>Change Dp</button></form>
         <?php
